@@ -1,0 +1,90 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* CSS for the ToDo List App */
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F1E5D1;
+  padding: 10px; /* Added padding for smaller screens */
+}
+
+.center_div {
+  background-color: #DBB5B5;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px; /* Ensure it's responsive and centered */
+}
+
+.center_div h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.input_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.center_div input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.center_div button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: #DBB5B5;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.center_div button:hover {
+  background-color: #fcb5b5;
+}
+
+.center_div ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.center_div li {
+  background-color: #ffffff;
+  color: #DBB5B5;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.todo_style {
+  display: flex;
+  align-items: center;
+}
+
+.todo_style i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo_style i:hover {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
